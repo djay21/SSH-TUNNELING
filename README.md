@@ -1,4 +1,4 @@
-# ngrok-client-config
+# Ngrok-Client-Config
 
 => ngrok_setup file contains the shell script to setup the ngrok client in linux(ubuntu) environment and willl forward ports 8001 and tcp 22.<br>
 
