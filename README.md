@@ -4,7 +4,8 @@ ngrok_setup file contains the shell script to setup the ngrok client in linux(ub
 
 you will get your access token after sign up on https://dashboard.ngrok.com/signup .
 
-<h3> wget -O - https://raw.githubusercontent.com/djay21/ngrok-client-config/master/ngrok_setup.sh | bash </h3> 
+if you want to install directly from this github repo using bash script
+<h5> wget -O - https://raw.githubusercontent.com/djay21/ngrok-client-config/master/ngrok_setup.sh | bash </h5> 
 
 <h5> ********************Run by using ************************** </h5>
 
