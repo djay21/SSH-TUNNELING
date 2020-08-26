@@ -1,10 +1,10 @@
 # ngrok-client-config
 
-ngrok_setup file contains the shell script to setup the ngrok client in linux(ubuntu) environment and willl forward ports 8001 and tcp 22.<br>
+=> ngrok_setup file contains the shell script to setup the ngrok client in linux(ubuntu) environment and willl forward ports 8001 and tcp 22.<br>
 
-you will get your access token after sign up on https://dashboard.ngrok.com/signup .
+=> You will get your access token after sign up on https://dashboard.ngrok.com/signup .
 
-if you want to install directly from this github repo using bash script
+=> If you want to install directly from this github repo using bash script
 <h5> wget -O - https://raw.githubusercontent.com/djay21/ngrok-client-config/master/ngrok_setup.sh | bash </h5> 
 
 <h5> ********************Run by using ************************** </h5>
