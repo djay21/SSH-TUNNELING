@@ -1,0 +1,12 @@
+authtoken: 4nq9771bPxe8ctg7LKr_2ClH7Y15Zqe4bWLWF9p
+tunnels:
+  demo1:
+    addr: 80
+    proto: http
+    hostname: example.com
+    bind_tls: false
+  demo2:
+    addr: 443
+    proto: tls
+    hostname: example.com
+    
