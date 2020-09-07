@@ -5,7 +5,7 @@
 => You will get your access token after sign up on https://dashboard.ngrok.com/signup .
 
 => If you want to install directly from this github repo using bash script
-<h5> wget -O - https://raw.githubusercontent.com/djay21/ngrok-client-config/master/ngrok_setup.sh | bash </h5> 
+<h5> wget -O - https://raw.githubusercontent.com/djay21/SSH-TUNNELING/master/ngrok_setup.sh | bash </h5> 
 
 <h5> ********************Run by using ************************** </h5>
 
@@ -14,3 +14,11 @@
 <br>
 <br>
 Location of file will be <b>/root/username/.ngrok2/ngrok.yml
+
+
+
+
+# LocalTunnel
+Localtunnel exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes. <br>
+
+<h5>wget -O - https://raw.githubusercontent.com/djay21/SSH-TUNNELING/master/localtunnel.sh | sudo bash </h5>
