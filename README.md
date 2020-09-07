@@ -13,12 +13,17 @@
 *ngrok start --all*          This will forward all ports mentioned in file <br>
 <br>
 <br>
-Location of file will be <b>/root/username/.ngrok2/ngrok.yml
-
-
+Location of file will be <b>/root/username/.ngrok2/ngrok.yml </b>
 
 
 # LocalTunnel
 Localtunnel exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes. <br>
 
 <h5>wget -O - https://raw.githubusercontent.com/djay21/SSH-TUNNELING/master/localtunnel.sh | sudo bash </h5>
+
+
+# SSH Port Forwarding Tunnel
+
+This allows anyone on the remote server to connect to TCP port 8080 on the remote server. The connection will then be tunneled back to the client host, and the client then makes a TCP connection to port 80 on localhost. Any other host name or IP address could be used instead of localhost to specify the host to connect to.
+
+<h5> wget -O - https://raw.githubusercontent.com/djay21/SSH-TUNNELING/master/remote_ssh_tunnel.sh | sudo bash </h5>
