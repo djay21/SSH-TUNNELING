@@ -1,0 +1,22 @@
+3
+
+Ok, i have got the solution. Here I am sharing if someone need sometimes:
+
+Copy the .pem file to ~/.ssh
+Create a config file at ~/.ssh
+
+touch ~/.ssh/config
+
+open the config file in nano or vim. nano ~/.ssh/config
+
+Add the following line to config file
+
+Host host_name
+
+HostName ec2.server.address.com
+
+User ec2-user
+
+IdentityFile "~/.ssh/ec2.pem"
+
+Now connect from terminal: ssh host_name
